@@ -33,7 +33,7 @@ In this tab you can analyze your data in two ways:
 
 - Launching [{esquisse}](https://dreamrs.github.io/esquisse/index.html) to analyze your data visually.
 
-![](figures/analysis1.PNG)
+![](figures/analysis1.png)
 
 
 You can sort any variable as follows:
