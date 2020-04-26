@@ -4,3 +4,4 @@ LICENSE.txt
 docs/
 pkgdown/
 ^\.travis\.yml$
+^cran-comments\.md$
