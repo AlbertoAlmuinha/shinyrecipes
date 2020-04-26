@@ -28,7 +28,7 @@ In this example we can see a simple case in which we impute the missing values o
 
 ## Getting Help
 
-If you encounter a bug, please file an issue with a minimal reproducible example on [Issues](https://github.com/AlbertoAlmuinha/shinyrecipes/issues).
+If you encounter a bug, please file an issue with a minimal reproducible example on [Issues](https://github.com/AlbertoAlmuinha/shinyrecipes/issues). You can also make an inquiry if you wish.
 
 
 
