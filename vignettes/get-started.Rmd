@@ -1,0 +1,68 @@
+---
+title: "Get Started with shinyrecipes"
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{get-started}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>"
+)
+```
+
+```{r setup, eval=FALSE}
+library(shinyrecipes)
+```
+
+
+This package only contains the `recipesGadget()` function from which you can launch a shiny gadget to carry out the preprocessing tasks implemented by [{recipes}](https://tidymodels.github.io/recipes/) package. This function takes two arguments:
+
+- **.df:** A data frame, data table or tibble on which the preprocessing steps will be trained.
+
+- **bake_list:** A named list where each element is a data.frame, data.table or tibble on which the selected preprocessing steps can be applied. If this argument is null, then you can apply the recipe created on the same data used to train it, if desired. 
+
+
+The function returns a list containing two elements: the first is the trained recipe and the second contains all the data on which the recipe has been applied inside the shiny gadget.
+
+
+## Launch the gadget:
+
+```{r, eval=FALSE}
+data("airquality")
+
+data<-recipesGadget(.df = airquality)
+```
+
+
+This shiny gadget is made up of four tabs:
+
+- **recipe:** Create the recipe formula.
+
+- **analysis:** Visualize and understand your data.
+
+- **roles/steps:** Update roles and add preprocessing steps.
+
+- **prep/bake:** Train your recipe and apply it on new data.
+
+You can see an article for each of these panels in the articles section.
+
+
+## Workflow:
+
+1. Recipe Tab: Required.
+
+2. Analysis Tab: Optional.
+
+3. Roles/Steps Tab: Update Roles: Optional.
+
+4. Roles/Steps Tab: Steps: Required.
+
+5. Prep/Bake Tab: Prep: Required.
+
+6. Prep/Bake Tab: Bake: Optional.
+
+

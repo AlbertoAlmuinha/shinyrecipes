@@ -1,0 +1,35 @@
+Package: shinyrecipes
+Type: Package
+Date: 2020-04-27
+Title: Gadget to use the data preprocessing 'recipes' package interactively
+Version: 0.1.0
+Author: Alberto Almuiña <albertogonzalezalmuinha@gmail.com>
+Maintainer: Alberto Almuiña <albertogonzalezalmuinha@gmail.com>
+Description: This gadget allows you to use the 'recipes' package belonging to 'tidymodels' to carry 
+    out the data preprocessing tasks in an interactive way. Build your 'recipe' by dragging the variables, 
+    visually analyze your data to decide which steps to use, add those steps and pre-process your data.
+License: GPL-3
+Encoding: UTF-8
+LazyData: true
+URL: https://github.com/AlbertoAlmuinha/shinyrecipes
+BugReports: https://github.com/AlbertoAlmuinha/shinyrecipes/issues
+Imports: 
+    dplyr,
+    purrr,
+    stringr,
+    shiny,
+    miniUI,
+    shinyWidgets,
+    shinyglide,
+    sortable,
+    rstudioapi,
+    DT,
+    tidyr,
+    esquisse
+Depends:
+    recipes
+RoxygenNote: 6.1.1
+Suggests: 
+    knitr,
+    rmarkdown
+VignetteBuilder: knitr

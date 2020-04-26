@@ -1,0 +1,11 @@
+pandoc: 2.7.2
+pkgdown: 1.5.1
+pkgdown_sha: ~
+articles:
+  get-started: get-started.html
+  recipe_tab: recipe_tab.html
+  analysis_tab: analysis_tab.html
+  roles_teps_tab: roles_teps_tab.html
+  prep_bake_tab: prep_bake_tab.html
+last_built: 2020-04-26T14:33Z
+
