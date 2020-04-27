@@ -6,6 +6,7 @@
 #' @param bake_list A named list where each element is a data.frame, data.table or tibble on which the selected preprocessing steps can be applied.
 #' @return
 #' Returns a list containing the trained recipe as well as all the data to which the recipe has been applied within the gadget.
+#' @details Find more information in the [shinyrecipes](https://albertoalmuinha.github.io/shinyrecipes/) web page.
 #' @export
 #' @examples
 #' \dontrun{
