@@ -17,6 +17,9 @@ Returns a list containing the trained recipe as well as all the data to which th
 \description{
 Gadget to use the data preprocessing 'recipes' package interactively.
 }
+\details{
+Find more information in the [shinyrecipes](https://albertoalmuinha.github.io/shinyrecipes/) web page.
+}
 \examples{
 \dontrun{
 recipesGadget(.df = mtcars, bake_list = list('mtcars1' = mtcars1))
