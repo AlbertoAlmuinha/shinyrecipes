@@ -1,7 +1,9 @@
 ^.*\.Rproj$
 ^\.Rproj\.user$
 LICENSE.txt
-docs/
 pkgdown/
 ^\.travis\.yml$
 ^cran-comments\.md$
+^docs$
+^man/figures/shinyrecipes.gif
+^vignettes$

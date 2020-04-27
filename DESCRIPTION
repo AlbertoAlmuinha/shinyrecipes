@@ -1,7 +1,7 @@
 Package: shinyrecipes
 Type: Package
 Date: 2020-04-27
-Title: Gadget to use the data preprocessing 'recipes' package interactively
+Title: Gadget to Use the Data Preprocessing 'recipes' Package Interactively
 Version: 0.1.0
 Author: Alberto Almuiña <albertogonzalezalmuinha@gmail.com>
 Maintainer: Alberto Almuiña <albertogonzalezalmuinha@gmail.com>
