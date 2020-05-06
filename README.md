@@ -16,7 +16,13 @@ Find more information in the [shinyrecipes](https://albertoalmuinha.github.io/sh
 
 ## Installation
 
-You can install the development version from Github:
+You can install `shinyrecipes` from CRAN:
+
+```r
+install.packages('shinyrecipes')
+```
+
+or you can install the development version from Github:
 
 ```r
 remotes::install_github("AlbertoAlmuinha/shinyrecipes")
