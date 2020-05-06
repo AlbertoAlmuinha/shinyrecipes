@@ -3,8 +3,10 @@
 > The objective of this package is to facilitate the preprocessing tasks offered by the [{recipes}](https://tidymodels.github.io/recipes/) package in an interactive way.
 
 <!-- badges: start -->
+[![CRAN status](https://www.r-pkg.org/badges/version/shinyrecipes)](https://CRAN.R-project.org/package=shinyrecipes)
 [![Lifecycle: maturing](https://img.shields.io/badge/lifecycle-maturing-blue.svg)](https://www.tidyverse.org/lifecycle/#maturing)
 [![Travis build status](https://travis-ci.org/AlbertoAlmuinha/shinyrecipes.svg?branch=master)](https://travis-ci.org/AlbertoAlmuinha/shinyrecipes)
+[![Total Downloads](http://cranlogs.r-pkg.org/badges/grand-total/shinyrecipes?color=brightgreen)](https://cran.r-project.org/package=shinyrecipes)
 <!-- badges: end -->
 
 
@@ -14,7 +16,13 @@ Find more information in the [shinyrecipes](https://albertoalmuinha.github.io/sh
 
 ## Installation
 
-You can install the development version from Github:
+You can install `shinyrecipes` from CRAN:
+
+```r
+install.packages('shinyrecipes')
+```
+
+Or you can install the development version from Github:
 
 ```r
 remotes::install_github("AlbertoAlmuinha/shinyrecipes")
